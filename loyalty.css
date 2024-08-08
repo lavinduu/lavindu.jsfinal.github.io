@@ -1,0 +1,217 @@
+
+
+/* Resetting default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Resetting default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  .video-bg {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1; /* Ensure the video stays behind other content */
+  }
+  
+  header {
+      /* Your header styles here */
+      z-index: 1; /* Ensure the header stays above the video */
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo img {
+    height: 150px;
+  }
+  
+  
+  
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .location-selector select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .location-selector button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #62ae2f;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: #62ae2f;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  .card {
+    display: flex;
+    border: 2.5px solid #000000;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: .5rem;
+    background-color: rgb(198, 174, 174);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    
+  
+}
+  
+  .card-icon {
+    background-color: #62ae2f;
+    padding: rem;
+  }
+  
+  .card-icon img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+  }
+  /* Your existing CSS styles */
+
+.advertisement {
+    text-align: center;
+    padding: rem;
+    background-color: #988e8e;
+}
+
+.advertisement h2 {
+    color: #030501;
+}
+
+.advertisement p {
+    margin-bottom: 1rem;
+}
+.advertisement img {
+    width: 800px;
+}
+
+/* Pop-in Animation */
+.pop-in {
+    animation: popIn 2s ease-in-out infinite alternate; /* Repeats the animation infinitely */
+    animation-fill-mode: both;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.8); /* Start with slightly scaled down */
+    }
+    100% {
+        transform: scale(1); /* End with full scale */
+    }
+}
+.h2 {
+    color: var(--green);
+    margin-right: 5px;
+    font-size: 25px;
+}

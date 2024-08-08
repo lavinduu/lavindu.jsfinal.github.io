@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="./order.css">
+    <title>Aura Mart</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./logo1.png" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><button class="login-button" href="#">Login</button></li>
+            <li><button class="join-button" href="#">Join</button></li>
+        </ul>
+    </nav>
+
+
+    <section class="home">
+        <section class="home-content">
+            <h1 class="animation">Products</h1>
+            <h3 class="animation">Fresh & Affordable!</h3>
+        </section>
+    </section>
+
+
+    <div class="button-section">
+        <div class="button-container">
+          <Button data-target="fruits-section">Fruits</Button>
+          <Button data-target="vegetables-section">Vegetables</Button>
+          <Button data-target="meat-fish-section">Meat & Fish</Button>
+          <Button data-target="dairy-section">Dairy</Button>
+          <Button data-target="baking-cooking-section">Baking</Button>
+        </div>
+    </div>
+
+     <!-- Vegie Section-->
+     <div class="section-name">
+        <center>
+            <div class="name-container">
+                <h1>Vegetables</h1>
+            </div>
+        </center>
+    </div>
+
+      <div class="vegetables-section" id="vegetables-section">
+        <div class="gallery">
+            <div class="content">
+                <img src="./Brocoli.jpg" alt="" id="product-image">
+                <h3 id="name">Brocolli</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <center><h6 id="price">250 <span>LKR</span></h6></center>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./Cabbage.jpg" alt="" id="product-image">
+                <h3 id="name">Cabbage</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">350<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./Beet root.jpg" alt="" id="product-image">
+                <h3 id="name">Beet Root</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">370<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./bellpaper.jpeg" alt="" id="product-image">
+                <h3 id="name">Bellpepper</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">520<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./Cassava.jpg" alt="" id="product-image">
+                <h3 id="name">Cassava</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">170<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./Coriandor leaves.jpg" alt="" id="product-image">
+                <h3 id="name">Coriandor Leaves</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">125<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+
+      </div>
+
+      
+    <!-- Meat and Fish Section -->
+
+      <div class="section-name">
+        <center>
+            <div class="name-container">
+                <h1>Meat and Fish</h1>
+            </div>
+        </center>
+    </div>
+      <div class="meat-fish-section" id="meat-fish-section">
+        <div class="gallery">
+            <div class="content">
+                <img src="./meat/chicken.webp" alt="" id="product-image">
+                <h3 id="name">Chicken</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <center><h6 id="price">2500 <span>LKR</span></h6></center>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./meat/tuna.webp" alt="" id="product-image">
+                <h3 id="name">Tuna</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">1350<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./meat/sausage.webp" alt="" id="product-image">
+                <h3 id="name">Sausage</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">1270<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./meat/ham.webp" alt="" id="product-image">
+                <h3 id="name">Ham</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">2520<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./meat/pork.jpg" alt="" id="product-image">
+                <h3 id="name">Pork</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">1700<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./meat/beef_PNG33.png" alt="" id="product-image">
+                <h3 id="name">Beef</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">3200<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+      </div>
+
+      <!-- Dairy Section -->
+
+      <div class="section-name">
+        <center>
+            <div class="name-container">
+                <h1>Dairy Products</h1>
+            </div>
+        </center>
+    </div>
+      
+      <div class="dairy-section" id="dairy-section">
+        <div class="gallery">
+            <div class="content">
+                <img src="./dairy/anchor hot chocolate.jpg" alt="" id="product-image">
+                <h3 id="name">Hot Chocolate</h3>
+                <p><input type="number" id="quantity"></p>
+                <center><h6 id="price">1500 <span>LKR</span></h6></center>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./dairy/kotmale milk.jpeg" alt="" id="product-image">
+                <h3 id="name">Fresh Milk</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">1350<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./dairy/richlife yogourt.jpeg" alt="" id="product-image">
+                <h3 id="name">Yoghurt</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">1270<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./dairy/kotmale cheese spread 175g.jpg" alt="" id="product-image">
+                <h3 id="name">Cheese</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">2520<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./dairy/Dairy milk icecream.jpg" alt="" id="product-image">
+                <h3 id="name">Ice Cream</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">1700<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./dairy/Anchor milk powder.jpeg" alt="" id="product-image">
+                <h3 id="name">Milk Powder</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">3200<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+      </div>
+
+    <!-- fruits Section -->
+     
+    <div class="section-name">
+        <center>
+            <div class="name-container">
+                <h1>Fruits</h1>
+            </div>
+        </center>
+    </div>
+
+    <div class="fruits-section" id="fruits-section">
+        <div class="gallery">
+            <div class="content">
+                <img src="./fruits/apple.png" alt="" id="product-image">
+                <h3 id="name">Apples</h3>
+                <p><input type="number" id="quantity"><span>g</span></p>
+                <center><h6 id="price">250<span>LKR(per 100g)</span></h6></center>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./fruits/banana.png" alt="" id="product-image">
+                <h3 id="name">Banana</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">350<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./fruits/watermelon.png" alt="" id="product-image">
+                <h3 id="name">Watermelon</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">470<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./fruits/oranges.webp" alt="" id="product-image">
+                <h3 id="name">Oranges</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">220<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./fruits/R.webp" alt="" id="product-image">
+                <h3 id="name">Lemons</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">170<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./fruits/strawberry.png" alt="" id="product-image">
+                <h3 id="name">Strawberry</h3>
+                <p><input type="number" id="quantity"><span>Kg</span></p>
+                <h6 id="price">320<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+    </div>
+
+    <!-- Bakery and Coooking section -->
+
+     
+    <div class="section-name">
+        <center>
+            <div class="name-container">
+                <h1>Baking & Cooking</h1>
+            </div>
+        </center>
+    </div>
+
+    <div class="baking-cooking-section">
+        <div class="gallery">
+            <div class="content">
+                <img src="./baking/bakingpowder.png" alt="" id="product-image">
+                <h3 id="name">Baking Powder</h3>
+                <p><input type="number" id="quantity"></p>
+                <center><h6 id="price">1200<span>LKR</span></h6></center>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./baking/blackpepper.png" alt="" id="product-image">
+                <h3 id="name">Black Pepper</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">350<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./baking/eggs.png" alt="" id="product-image">
+                <h3 id="name">Eggs</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">60<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./baking/icing-sugar.png" alt="" id="product-image">
+                <h3 id="name">Icing Sugar</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">980<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+
+
+            <div class="content">
+                <img src="./baking/sunfloweoil.png" alt="" id="product-image">
+                <h3 id="name">Sunflower Oil</h3>
+                <p><input type="number" id="quantity"></p>
+                <h6 id="price">700<span>LKR</span></h6>
+                <button id="add-to-cart">Add to Cart</button>
+            </div>
+    </div>
+
+    <table id="cart-table">
+        <caption>Cart</caption>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+      <div class="proceed-buttons">
+        <center><button id="proceed-to-pay">Proceed</button></center> 
+      </div>
+
+
+
+
+</body>
+<script src="./products.js"></script>
+</html>
